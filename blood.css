@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    position:relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    background: #01042c;
+    background-image: url(./img/fundo.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    padding: 40px 100px;
+    background-color: #000020;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    position: relative;
+    max-width: 150px;
+}
+header .navegation ul{
+    position: relative;
+    display: flex;
+}
+header .navegation li{
+    list-style: none;
+}
+header .navegation li a{
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 19px;
+    margin-left: 1000%;
+    margin-top: -100px;
+}
+header .tit h1{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    margin-right: 0%;
+    font-size: 50px;
+    margin-left: -175%;
+    margin-top: -10px;
+}
+.container{ 
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .text1{ 
+    position: relative;
+    max-width: 1800px;
+    margin-right: -500px;
+    margin-top: -20px;
+    margin-left: 500px;
+}
+.container .text1 h2{
+    color: #ffffff;
+    font-size: 1em;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-weight: 700;
+}
+.botom{
+    margin-top: 500px;
+    margin-right: 500px;
+}
+.botom a{
+    display: inline-block;
+    padding: 10px 25px;
+    background: #000020;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.botom a:hover{
+    transform: translateY(-10px);
+}
+.imagens{
+    position: absolute;
+    right: 60px;
+    bottom: 30px;
+    margin-left: 0px;
+    margin-right: 65%;
+}
+.imagens img{
+    width: 350px;
+    margin: 20px;
+    border-radius: 40px;
+}
